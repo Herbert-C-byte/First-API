@@ -11,7 +11,7 @@ async function jokeAPI() {
 }
 
 jokeAPI();
-
+console.log("This is after the jokeAPI call.");
 // fetch('https://official-joke-api.appspot.com/random_joke')
 // .then(data => data.json())
 // .then(response => {

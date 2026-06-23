@@ -15,10 +15,21 @@ npm start
 # then open http://localhost:3000/joke
 ```
 
+Available endpoints
+
+```bash
+http://localhost:3000/
+http://localhost:3000/joke
+http://localhost:3000/joke?source=local
+http://localhost:3000/joke?source=external
+```
+
 Run the CLI (after `npm install`)
 
 ```bash
 npx joke
+npx joke --local
+npx joke --external
 ```
 
 Run tests
